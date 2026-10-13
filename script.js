@@ -48,10 +48,10 @@ const sr = {
   android_body: "Za test uredjaje sa ukljucenim sideload-om tokom validacije.",
   android_cta: "Preuzmi Android APK",
   android_note: "Demo build, nije Play Store izdanje.",
-  ios_title: "iOS / TestFlight",
-  ios_body: "Planiran kao nativni iOS build posle validacije sigurnosne arhitekture.",
-  ios_cta: "Pogledaj iOS plan",
-  ios_note: "iPhone executable trenutno nije dostupan u ovom Android demo paketu.",
+  ios_title: "HEARD Recepti iOS demo",
+  ios_body: "Zaseban nativni SwiftUI demo build za iPhone validaciju.",
+  ios_cta: "Preuzmi unsigned iOS IPA",
+  ios_note: "Unsigned developerski artefakt; stvarna instalacija na iPhone trazi Apple signing ili TestFlight.",
   roadmap_kicker: "Produkcione nadogradnje",
   roadmap_title: "Put ka stvarnoj no-tap pomoci",
   road_1_title: "Backend alarm + response pozivi",
@@ -68,8 +68,7 @@ const sr = {
   road_6_body: "Posebna iOS strategija, Apple Watch panic gesture i check-in tokovi koji postuju Apple ogranicenja.",
   closing_title: "Ovo nije stvarno aplikacija za recepte. To je nacin da neko bude cuven na vreme.",
   closing_cta: "Otvori download",
-  footer_text: "HEARD / Recepti demo. Za validaciju, partnerstva i razvoj. Nije zamena za hitne sluzbe.",
-  footer_link: "GitHub download repo"
+  footer_text: "HEARD / Recepti demo. Za validaciju, partnerstva i razvoj. Nije zamena za hitne sluzbe."
 };
 
 const en = {};
