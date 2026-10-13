@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HEARD - Recepti</title>
+    <meta
+      name="description"
+      content="HEARD je projekat za spasavanje zivota i davanje glasa utisanim. Recepti je Android demo aplikacija sakrivena kao aplikacija za recepte."
+    />
+    <meta property="og:title" content="HEARD - Recepti" />
+    <meta
+      property="og:description"
+      content="Sigurnosna aplikacija sakrivena iza recepata: wake word, SOS tok, poverenici, skriveni snimci, AI i zajednica."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://anchysss.github.io/heard-recepti/assets/og.png" />
+    <meta property="og:url" content="https://anchysss.github.io/heard-recepti/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231f1512'/%3E%3Cpath d='M18 35c0-10 6-17 14-17s14 7 14 17c0 8-5 13-14 13s-14-5-14-13Z' fill='%23f5efe7'/%3E%3Cpath d='M24 33h16M27 26h10M28 40h8' stroke='%23b33a2f' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Preskoci na sadrzaj</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="HEARD pocetna">
+        <span class="brand-mark">H</span>
+        <span>
+          <strong>HEARD</strong>
+          <small>Recepti / Recipes</small>
+        </span>
+      </a>
+      <nav aria-label="Glavna navigacija">
+        <a href="#features">Mogucnosti</a>
+        <a href="#demo-scope">Demo</a>
+        <a href="#download">Download</a>
+        <a href="#roadmap">Nadogradnje</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero" aria-label="HEARD uvod">
+        <picture>
+          <img src="assets/heard-hero.png" alt="Telefon sa aplikacijom za recepte na kuhinjskom pultu i diskretnom mrezom podrske oko njega" />
+        </picture>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">projekat HEARD</p>
+          <h1>Spasavanje zivota, sakriveno iza obicne aplikacije za recepte.</h1>
+          <p class="lede">
+            Recepti izgleda kao mirna aplikacija za kuvanje. Ispod toga je tihi sigurnosni sloj:
+            glasovni SOS, poverenici, skriveni snimci, lokacija, AI podrska i zajednica.
+          </p>
+          <div class="hero-actions" aria-label="Primarne akcije">
+            <a class="button primary" href="#download">Preuzmi demo</a>
+            <a class="button secondary" href="#features">Pogledaj sta moze</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission band">
+        <div class="section-kicker">Zasto postoji</div>
+        <div class="mission-grid">
+          <h2>Dati glas utisanim pre nego sto pomoc zakasni.</h2>
+          <p>
+            HEARD je osmisljen za trenutke kada osoba ne moze da objasni, kuca, zove ili
+            trazi pomoc pred nasilnikom. Aplikacija cuva privid svakodnevice, a u pozadini
+            pokrece unapred pripremljen plan za hitne situacije.
+          </p>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Mogucnosti aplikacije</p>
+          <h2>Sta sve Recepti moze da uradi</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card emergency">
+            <span>01</span>
+            <h3>Glasovni SOS</h3>
+            <p>Wake word moze da pokrene SOS tok cak i kada aplikacija nije otvorena, uz offline Vosk prepoznavanje.</p>
+          </article>
+          <article class="feature-card">
+            <span>02</span>
+            <h3>Poverenici</h3>
+            <p>Vise osoba od poverenja mogu primiti SMS sa lokacijom i biti fallback za no-tap poziv.</p>
+          </article>
+          <article class="feature-card">
+            <span>03</span>
+            <h3>Skriveno snimanje</h3>
+            <p>Audio i video dokazi se cuvaju lokalno enkriptovano, uz opciju cloud backup-a za demo.</p>
+          </article>
+          <article class="feature-card">
+            <span>04</span>
+            <h3>Prerusen ulaz</h3>
+            <p>Spolja je lista recepata. Skriveni deo se otvara tajnom frazom, PIN-om ili glasovnim kodom.</p>
+          </article>
+          <article class="feature-card">
+            <span>05</span>
+            <h3>AI razgovor</h3>
+            <p>Trauma-informed chat pokazuje kako bi aplikacija mogla da pruzi miran, konkretan razgovor u krizi.</p>
+          </article>
+          <article class="feature-card">
+            <span>06</span>
+            <h3>Zajednica</h3>
+            <p>Demo ukljucuje grupne sobe i 1-na-1 chat, kao osnova za mrezu podrske i verifikovanih savetnika.</p>
+          </article>
+          <article class="feature-card">
+            <span>07</span>
+            <h3>SR i US rezim</h3>
+            <p>Srpski rezim koristi lokalne brojeve i resurse; English rezim koristi US brojeve, linkove i centre pomoci.</p>
+          </article>
+          <article class="feature-card">
+            <span>08</span>
+            <h3>Brzi izlaz</h3>
+            <p>Shake gest vraca korisnicu nazad na recepte, da skriveni ekran ne ostane vidljiv.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo-scope" class="section split">
+        <div>
+          <p class="section-kicker">Sta demo sada moze</p>
+          <h2>Demo pokazuje tok, ne glumi produkcioni sistem.</h2>
+          <p>
+            Android demo je napravljen da se vidi ideja: skrivanje prave namene, wake word,
+            poverenici, snimci, SOS SMS, AI razgovor, zajednica i US/SR pomoc. To je dovoljno
+            za razgovor sa partnerima, NVO, policijom, psiholozima i donatorima.
+          </p>
+        </div>
+        <div class="note-panel">
+          <h3>Namerno ograniceno u demo verziji</h3>
+          <ul>
+            <li>Nema direktnog tajnog poziva policiji ili 911 bez sistemskih ogranicenja Android-a.</li>
+            <li>AI chat koristi dostupniju/free demo konfiguraciju, ne skupi premium model za produkciju.</li>
+            <li>Peer chat jos nema produkcionu verifikaciju korisnica, moderaciju i E2E enkripciju.</li>
+            <li>iPhone build nije ukljucen u ovaj demo paket.</li>
+            <li>Medicinska, pravna i trauma validacija moraju doci pre javne upotrebe.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="download" class="section download-section">
+        <div class="section-heading">
+          <p class="section-kicker">Javni download</p>
+          <h2>Aplikacija javno, kod privatno.</h2>
+          <p>
+            Ovaj GitHub prostor je namenjen prezentaciji i preuzimanju demo aplikacije. Source code
+            Android aplikacije ostaje u privatnom repozitorijumu.
+          </p>
+        </div>
+        <div class="download-grid">
+          <article class="download-card">
+            <p class="platform">Android</p>
+            <h3>HEARD Recepti demo APK</h3>
+            <p>Za test telefone sa ukljucenim sideload/USB debugging tokom validacije.</p>
+            <a class="button primary" href="https://github.com/anchysss/heard-recepti/releases/latest/download/HEARD-Recepti-demo-android.apk">Preuzmi Android APK</a>
+            <small>Demo build, nije Play Store izdanje.</small>
+          </article>
+          <article class="download-card muted">
+            <p class="platform">iPhone</p>
+            <h3>iOS / TestFlight</h3>
+            <p>Planirano posle bezbednosne i pravne provere. iOS ima stroza ogranicenja za pozadinsko slusanje i snimanje.</p>
+            <a class="button secondary" href="#roadmap">Pogledaj iOS plan</a>
+            <small>iPhone download trenutno nije deo demo paketa.</small>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section roadmap">
+        <div class="section-heading">
+          <p class="section-kicker">Nadogradnje za produkciju</p>
+          <h2>Put ka stvarnom no-tap pozivu u pomoc</h2>
+        </div>
+        <div class="roadmap-list">
+          <article>
+            <h3>Backend alarm + poziv poverenicima</h3>
+            <p>Telefon salje tihi SOS signal serveru, a server poziva poverenike ili 24/7 response centar.</p>
+          </article>
+          <article>
+            <h3>Regulisana emergency integracija</h3>
+            <p>Za US: istraziti Twilio E911 gde je podrzano, RapidSOS/Noonlight ili slicne dispatch partnere.</p>
+          </article>
+          <article>
+            <h3>Premium AI podrska</h3>
+            <p>Za produkciju treba kvalitetniji, placeni i evaluiran AI model uz strucni trauma-informed review.</p>
+          </article>
+          <article>
+            <h3>Verifikovana mreza ljudi</h3>
+            <p>NVO, savetnice i sigurni centri mogu postati provereni cvorovi podrske, sa moderacijom i audit trail-om.</p>
+          </article>
+          <article>
+            <h3>Evidence vault</h3>
+            <p>Enkriptovani snimci, vremenski pecati, chain of custody i pravno prihvatljiv format dokaza.</p>
+          </article>
+          <article>
+            <h3>iOS i wearable signal</h3>
+            <p>Posebna iOS strategija, Apple Watch panic gesture i check-in tokovi koji postuju Apple ogranicenja.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section closing">
+        <p class="section-kicker">HEARD</p>
+        <h2>Ovo nije aplikacija za recepte. To je nacin da neko bude cuven na vreme.</h2>
+        <a class="button primary" href="#download">Otvori download</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>HEARD / Recepti demo. Za validaciju, partnerstva i razvoj. Nije zamena za hitne sluzbe.</p>
+      <a href="https://github.com/anchysss/heard-recepti">GitHub download repo</a>
+    </footer>
+  </body>
+</html>
